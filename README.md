@@ -4,6 +4,8 @@
 ![Screenshot 2023-08-13 at 8 37 22 pm](https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/7f31ec7a-b438-469f-973b-ebd6ffa00477)
 
 ## Business Task
+Danny, inspired by an 80's Retro Styling ans Pizza trend on Instagram, decided to start a pizza delivery business, He name dit "Pizza Runner" and combined the pizza trend with an Uber-like delivery method. He hired "runners" for delivery and developed a mobile app for order placements.
+With his background in data science, Danny knows the importance of data. He's created a database design for Pizza Runner but needs help cleaning the data and making calculations. This will help him manage his runners more efficiently and optimise the business operations.
 
 ## Entity Relationship Diagram
 <img width="639" alt="image" src="https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/09d8efef-f7a4-4516-bd5e-73a0e6561044">
