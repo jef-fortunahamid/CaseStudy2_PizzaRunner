@@ -16,7 +16,7 @@
 
 ## Key SQL Syntax and Functions
 - Temporary Tables (CREATE TEMP TABLE)
-- Joins (INNER JOIN, LEFT SEMI JOIN)
+- Joins (LEFT JOIN, INNER JOIN, LEFT SEMI JOIN)
 - Aggregation Functions (SUM, COUNT, AVG, MAX, MIN)
 - Window Functions(RANK)
 - Common Table Expressions (CTE)
