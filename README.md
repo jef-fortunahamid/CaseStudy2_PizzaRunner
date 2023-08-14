@@ -98,10 +98,10 @@ This SQL statement is creating a cleaned-up version of the `runner_orders` table
 -  If the `pickup_time` column has a value of 'null' (as a string), it's converted to an actual NULL value. Otherwise, it's converted to a TIMESTAMP data type.
 -  If the `distance` column has a value of 'null' (as a string), it's converted to an actual NULL value. If it has a 'km' suffix, that suffix is removed, and the remaining value is converted to a FLOAT data type.
 - The `duration` column undergoes multiple transformations:
-  -If the value is 'null' (as a string), it's converted to an actual NULL value.
-  -If the value has a 'mins' suffix, that suffix is removed, and the remaining value is converted to an INT data type.
-  -If the value has a 'minute' or 'minutes' suffix, that suffix is removed, and the remaining value is converted to an INT data type.
-  -Otherwise, it's directly converted to an INT data type.
+  - If the value is 'null' (as a string), it's converted to an actual NULL value.
+  - If the value has a 'mins' suffix, that suffix is removed, and the remaining value is converted to an INT data type.
+  - If the value has a 'minute' or 'minutes' suffix, that suffix is removed, and the remaining value is converted to an INT data type.
+  - Otherwise, it's directly converted to an INT data type.
 - If the cancellation column is NULL, an empty string, or has a value of 'null' (as a string), it's converted to an actual NULL value. Otherwise, the original value is retained.
 
 ![image](https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/c781fda5-43a1-479e-a1e8-ae0929e04046)
