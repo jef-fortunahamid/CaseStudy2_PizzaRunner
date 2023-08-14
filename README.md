@@ -30,7 +30,9 @@ With his background in data science, Danny knows the importance of data. He's cr
 ### Table: customer_orders
 If we are going to look closely at the table, there are some inconsistencies.
 - There are missing/blanks and null values in both `exclusions` and `extras` columns
+- 
 ![image](https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/95ce827d-cf61-4041-b1fc-f2ac11e0e030)
+
 
 We must clean up the `customer_orders` table. This cleaned-up table will be easier to work with for subsequent analyses and operations. We will proceed with the following:
 - We need to create a temporary table with cleaned `exlcusions` and `extras` columns.
@@ -57,6 +59,7 @@ SELECT *
 FROM customer_orders_temp;
 ```
 In this query, the `CASE WHEN` statement checks if the `exclusions` and `extras` values are blank ('') and 'null', and if so, replaces them with the `NULL` value.
+
 ![image](https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/40b6bbb6-aa14-4da9-9343-7b62d8f7798f)
 
 ### Table: runner_orders
@@ -65,7 +68,9 @@ Again, if we are going to look closely at this table, there are some issues.
 - In the `distance` column, there are a few issues here. We have values where the number is directly followed by 'km' without a space. We also have instances where there's a space between the number and 'km'. Additionally, it's unclear if the null values are the desired 'NULL' values.
 - In the `duration` column, quite a few issues here as well. We've got mins, minute and minutes, both with and without spaces. Additionally, it's uncertain whether the null values correspond to the desired 'NULL' values.
 - In the `cancellation` column, we've got missing/blank values and different 'null' values.
+- 
 ![image](https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/b32fe23b-363a-4a4c-a41f-85f3b8684fce)
+
 
 Just like from the previous table, we need to clean up the `runner_orders` table. Once tidied, it will be more manageable for subsequent analyses and tasks. 
 ```sql
