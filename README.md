@@ -56,7 +56,7 @@ FROM customer_orders_temp;
 In this query, the `CASE WHEN` statement checks if the `exclusions` and `extras` values are blank ('') and 'null', and if so, replaces them with the `NULL` value.
 ![image](https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/40b6bbb6-aa14-4da9-9343-7b62d8f7798f)
 
-###Table: runner_orders
+### Table: runner_orders
 Again, if we are going to look closely at this table, there are some issues.
 - In the `pickup_time` column, we don't know if the null values correspond to the desired 'NULL' values.
 - In the `distance` column, there are a few issues here. We have values where the number is directly followed by 'km' without a space. We also have instances where there's a space between the number and 'km'. Additionally, it's unclear if the null values are the desired 'NULL' values.
