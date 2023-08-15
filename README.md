@@ -17,14 +17,14 @@ With his background in data science, Danny knows the importance of data. He's cr
 - *Menu Expansion:* The bonus question explored the implications of adding a new pizza type to the menu, demonstrating how the current data design can accommodate such changes.
 
 ## Key SQL Syntax and Functions
-- Temporary Tables (CREATE TEMP TABLE)
-- Joins (LEFT JOIN, INNER JOIN, LEFT SEMI JOIN)
-- Aggregation Functions (SUM, COUNT, AVG, MAX, MIN)
-- Window Functions(RANK)
+- Temporary Tables (`CREATE TEMP TABLE`)
+- Joins (`LEFT JOIN`, `INNER JOIN`, `LEFT SEMI JOIN` with `WHERE EXISTS`)
+- Aggregation Functions (`SUM`, `COUNT`, `AVG`, `MAX`, `MIN`)
+- Window Functions(`RANK`)
 - Common Table Expressions (CTE)
-- Conditional Logic (CASE WHEN)
-- Date Functions (DATE_TRUNC, DATE_PART, AGE)
-- String Functions (STRING_AGG, REGEXP_SPLIT_TO_TABLE)
+- Conditional Logic (`CASE WHEN`)
+- Date Functions (`DATE_TRUNC`, `DATE_PART`, `AGE`)
+- String Functions (`STRING_AGG`, `REGEXP_SPLIT_TO_TABLE`)
 
 ## Data Cleaning and Transformation
 ### Table: customer_orders
