@@ -1,4 +1,4 @@
-# Case Study 2 Pizza Runner
+# Case Study #2 Pizza Runner
 
 *Note: All information and data related to the case study were obtained from [here](https://8weeksqlchallenge.com/case-study-2/).*
 ![Screenshot 2023-08-13 at 8 37 22 pm](https://github.com/jef-fortunahamid/CaseStudy2_PizzaRunner/assets/125134025/7f31ec7a-b438-469f-973b-ebd6ffa00477)
